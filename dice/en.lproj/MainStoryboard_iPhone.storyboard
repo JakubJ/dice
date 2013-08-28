@@ -31,13 +31,24 @@
                                     <constraint firstAttribute="width" constant="110" id="ogo-1L-X7c"/>
                                 </constraints>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Testovaci podverze - 1.1" translatesAutoresizingMaskIntoConstraints="NO" id="IxB-Yl-CyI">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Kjr-Ie-ZXa"/>
+                                    <constraint firstAttribute="height" constant="34" id="w40-bT-78D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.15382982336956519" green="0.15382982336956519" blue="0.15382982336956519" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="PWz-Xo-KkS" firstAttribute="top" secondItem="3" secondAttribute="top" constant="126" id="FRD-IT-88n"/>
-                            <constraint firstItem="PWz-Xo-KkS" firstAttribute="centerX" secondItem="cqs-h4-MkA" secondAttribute="centerX" type="default" id="ISj-jX-wvs"/>
+                            <constraint firstItem="IxB-Yl-CyI" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="45" id="NSt-I5-0fp"/>
+                            <constraint firstItem="IxB-Yl-CyI" firstAttribute="centerX" secondItem="cqs-h4-MkA" secondAttribute="centerX" type="default" id="NlN-dR-4W0"/>
+                            <constraint firstAttribute="bottom" secondItem="IxB-Yl-CyI" secondAttribute="bottom" constant="173" id="Tfn-Tg-VOE"/>
                             <constraint firstAttribute="bottom" secondItem="cqs-h4-MkA" secondAttribute="bottom" constant="72" id="cBg-e7-WIW"/>
-                            <constraint firstItem="PWz-Xo-KkS" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="110" id="hXL-GZ-hVH"/>
+                            <constraint firstItem="IxB-Yl-CyI" firstAttribute="centerX" secondItem="PWz-Xo-KkS" secondAttribute="centerX" type="default" id="hEl-uV-VNl"/>
                         </constraints>
                     </view>
                     <connections>
