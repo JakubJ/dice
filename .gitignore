@@ -17,6 +17,7 @@ profile
 DerivedData
 .idea/
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.xcuserstate
 project.xcworkspace
 xcuserdata
@@ -25,8 +26,13 @@ project.xcworkspace/
 xcuserdata/
 UserInterface.xcuserstate
 =======
+=======
+>>>>>>> 5e5f27b85c82ef1290aabd0590b3d50537b94083
 
 dice.xcodeproj/project.xcworkspace/xcuserdata/jakub.xcuserdatad/UserInterfaceState.xcuserstate
 
 dice.xcodeproj/project.xcworkspace/xcuserdata/jakub.xcuserdatad/UserInterfaceState.xcuserstate
+<<<<<<< HEAD
+>>>>>>> 5e5f27b85c82ef1290aabd0590b3d50537b94083
+=======
 >>>>>>> 5e5f27b85c82ef1290aabd0590b3d50537b94083
