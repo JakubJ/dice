@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
+
+    @property  NSArray *diceSet;
+    @property  UIImage *diceImg;
 
 @end

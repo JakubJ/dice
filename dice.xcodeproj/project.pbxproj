@@ -24,6 +24,12 @@
 		5BEDCD51179F0664006BC12B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEDCD29179F0663006BC12B /* Foundation.framework */; };
 		5BEDCD59179F0664006BC12B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BEDCD57179F0664006BC12B /* InfoPlist.strings */; };
 		5BEDCD5C179F0664006BC12B /* diceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEDCD5B179F0664006BC12B /* diceTests.m */; };
+		5BEDCD7117A1D5F7006BC12B /* dice01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEDCD6B17A1D5F7006BC12B /* dice01.png */; };
+		5BEDCD7217A1D5F7006BC12B /* dice02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEDCD6C17A1D5F7006BC12B /* dice02.png */; };
+		5BEDCD7317A1D5F7006BC12B /* dice03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEDCD6D17A1D5F7006BC12B /* dice03.png */; };
+		5BEDCD7417A1D5F7006BC12B /* dice04.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEDCD6E17A1D5F7006BC12B /* dice04.png */; };
+		5BEDCD7517A1D5F7006BC12B /* dice05.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEDCD6F17A1D5F7006BC12B /* dice05.png */; };
+		5BEDCD7617A1D5F7006BC12B /* dice06.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEDCD7017A1D5F7006BC12B /* dice06.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,12 @@
 		5BEDCD58179F0664006BC12B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BEDCD5A179F0664006BC12B /* diceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diceTests.h; sourceTree = "<group>"; };
 		5BEDCD5B179F0664006BC12B /* diceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = diceTests.m; sourceTree = "<group>"; };
+		5BEDCD6B17A1D5F7006BC12B /* dice01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice01.png; sourceTree = "<group>"; };
+		5BEDCD6C17A1D5F7006BC12B /* dice02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice02.png; sourceTree = "<group>"; };
+		5BEDCD6D17A1D5F7006BC12B /* dice03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice03.png; sourceTree = "<group>"; };
+		5BEDCD6E17A1D5F7006BC12B /* dice04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice04.png; sourceTree = "<group>"; };
+		5BEDCD6F17A1D5F7006BC12B /* dice05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice05.png; sourceTree = "<group>"; };
+		5BEDCD7017A1D5F7006BC12B /* dice06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice06.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +145,12 @@
 		5BEDCD2E179F0663006BC12B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BEDCD6B17A1D5F7006BC12B /* dice01.png */,
+				5BEDCD6C17A1D5F7006BC12B /* dice02.png */,
+				5BEDCD6D17A1D5F7006BC12B /* dice03.png */,
+				5BEDCD6E17A1D5F7006BC12B /* dice04.png */,
+				5BEDCD6F17A1D5F7006BC12B /* dice05.png */,
+				5BEDCD7017A1D5F7006BC12B /* dice06.png */,
 				5BEDCD2F179F0663006BC12B /* dice-Info.plist */,
 				5BEDCD30179F0663006BC12B /* InfoPlist.strings */,
 				5BEDCD33179F0663006BC12B /* main.m */,
@@ -240,6 +258,12 @@
 				5BEDCD3E179F0663006BC12B /* Default-568h@2x.png in Resources */,
 				5BEDCD41179F0664006BC12B /* MainStoryboard_iPhone.storyboard in Resources */,
 				5BEDCD44179F0664006BC12B /* MainStoryboard_iPad.storyboard in Resources */,
+				5BEDCD7117A1D5F7006BC12B /* dice01.png in Resources */,
+				5BEDCD7217A1D5F7006BC12B /* dice02.png in Resources */,
+				5BEDCD7317A1D5F7006BC12B /* dice03.png in Resources */,
+				5BEDCD7417A1D5F7006BC12B /* dice04.png in Resources */,
+				5BEDCD7517A1D5F7006BC12B /* dice05.png in Resources */,
+				5BEDCD7617A1D5F7006BC12B /* dice06.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +423,7 @@
 				GCC_PREFIX_HEADER = "dice/dice-Prefix.pch";
 				INFOPLIST_FILE = "dice/dice-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,6 +435,7 @@
 				GCC_PREFIX_HEADER = "dice/dice-Prefix.pch";
 				INFOPLIST_FILE = "dice/dice-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
