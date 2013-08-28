@@ -16,3 +16,7 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+
+dice.xcodeproj/project.xcworkspace/xcuserdata/jakub.xcuserdatad/UserInterfaceState.xcuserstate
+
+dice.xcodeproj/project.xcworkspace/xcuserdata/jakub.xcuserdatad/UserInterfaceState.xcuserstate
